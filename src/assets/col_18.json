@@ -1,0 +1,65 @@
+[
+  {
+    "number": 2,
+    "element": "He",
+    "name": "Helium",
+    "elementCategory": "noble_gases",
+    "elementWeight": 4.0026
+  },
+  {
+    "number": 10,
+    "element": "Ne",
+    "name": "Neon",
+    "elementCategory": "noble_gases",
+    "elementWeight": 20.180
+  },
+  {
+    "number": 18,
+    "element": "Ar",
+    "name": "Argon",
+    "elementCategory": "noble_gases",
+    "elementWeight": 39.948
+  },
+  {
+    "number": 36,
+    "element": "Kr",
+    "name": "Krypton",
+    "elementCategory": "noble_gases",
+    "elementWeight": 83.798
+  },
+  {
+    "number": 54,
+    "element": "Xe",
+    "name": "Xenon",
+    "elementCategory": "noble_gases",
+    "elementWeight": 131.29
+  },
+  {
+    "number": 86,
+    "element": "Rn",
+    "name": "Radon",
+    "elementCategory": "noble_gases",
+    "elementWeight": 222
+  },
+  {
+    "number": 118,
+    "element": "Og",
+    "name": "Oganesson",
+    "elementCategory": "unknown",
+    "elementWeight": 294
+  },
+  {
+    "number": 71,
+    "element": "Lu",
+    "name": "Lutetium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 174.97,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 103,
+    "element": "Lr",
+    "name": "Lawrencium",
+    "elementCategory": "actinoids"
+  }
+]

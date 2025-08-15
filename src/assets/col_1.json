@@ -1,0 +1,51 @@
+[
+  {
+    "number": 1,
+    "element": "H",
+    "name": "Hydrogen",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 1.008
+  },
+  {
+    "number": 2,
+    "element": "Li",
+    "name": "Lithium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 6.94
+  },
+  {
+    "number": 3,
+    "element": "Na",
+    "name": "Sodium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 22.99
+  },
+  {
+    "number": 4,
+    "element": "K",
+    "name": "Potassium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 39.10
+  },
+  {
+    "number": 5,
+    "element": "Rb",
+    "name": "Rubidium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 85.47
+  },
+  {
+    "number": 6,
+    "element": "Cs",
+    "name": "Cesium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 132.91
+  },
+  {
+    "number": 7,
+    "element": "Fr",
+    "name": "Francium",
+    "elementCategory": "alkali_metals",
+    "elementWeight": 223
+  }
+]

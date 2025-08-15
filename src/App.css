@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('../public/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@theme {
+    --font-raleway: 'Raleway-bold', sans-serif;
+}

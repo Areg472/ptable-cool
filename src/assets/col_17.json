@@ -1,0 +1,62 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 9,
+    "element": "F",
+    "name": "Fluorine",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 18.998
+  },
+  {
+    "number": 17,
+    "element": "Cl",
+    "name": "Chlorine",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 35.45
+  },
+  {
+    "number": 35,
+    "element": "Br",
+    "name": "Bromine",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 79.904
+  },
+  {
+    "number": 53,
+    "element": "I",
+    "name": "Iodine",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 126.90
+  },
+  {
+    "number": 85,
+    "element": "At",
+    "name": "Astatine",
+    "elementCategory": "metalloids",
+    "elementWeight": 210
+  },
+  {
+    "number": 117,
+    "element": "Ts",
+    "name": "Tennessine",
+    "elementCategory": "unknown",
+    "elementWeight": 294
+  },
+  {
+    "number": 70,
+    "element": "Yb",
+    "name": "Ytterbium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 173.05,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 102,
+    "element": "No",
+    "name": "Nobelium",
+    "elementCategory": "actinoids",
+    "elementWeight": 259
+  }
+]

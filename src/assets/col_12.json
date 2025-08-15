@@ -1,0 +1,54 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 30,
+    "element": "Zn",
+    "name": "Zinc",
+    "elementCategory": "transition_metals",
+    "elementWeight": 65.38
+  },
+  {
+    "number": 48,
+    "element": "Cd",
+    "name": "Cadmium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 112.41
+  },
+  {
+    "number": 80,
+    "element": "Hg",
+    "name": "Mercury",
+    "elementCategory": "transition_metals",
+    "elementWeight": 200.59
+  },
+  {
+    "number": 112,
+    "element": "Cn",
+    "name": "Copernicium",
+    "elementCategory": "unknown",
+    "elementWeight": 285
+  },
+  {
+    "number": 65,
+    "element": "Tb",
+    "name": "Terbium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 158.93,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 97,
+    "element": "Bk",
+    "name": "Berkelium",
+    "elementCategory": "actinoids",
+    "elementWeight": 247
+  }
+]

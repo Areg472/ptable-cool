@@ -1,0 +1,47 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": "4",
+    "element": "Be",
+    "name": "Beryllium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 9.0122
+  },
+  {
+    "number": "12",
+    "element": "Mg",
+    "name": "Magnesium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 24.305
+  },
+  {
+    "number": "20",
+    "element": "Ca",
+    "name": "Calcium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 40.078
+  },
+  {
+    "number": "38",
+    "element": "Sr",
+    "name": "Strontium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 87.62
+  },
+  {
+    "number": "56",
+    "element": "Ba",
+    "name": "Barium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 137.33
+  },
+  {
+    "number": "88",
+    "element": "Ra",
+    "name": "Radium",
+    "elementCategory": "alkaline_earth_metals",
+    "elementWeight": 226
+  }
+]

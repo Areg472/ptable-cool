@@ -1,0 +1,50 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 21,
+    "element": "Sc",
+    "name": "Scandium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 44.956
+  },
+  {
+    "number": 39,
+    "element": "Y",
+    "name": "Yttrium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 88.906
+  },
+  {
+    "number": "57-71",
+    "elementCategory": "blue",
+    "custom_classes": "mt-3 ml-1 text-sm",
+    "no_transform": true
+  },
+  {
+    "number": "89-103",
+    "elementCategory": "blue",
+    "custom_classes": "mt-3 ml-[1px] text-sm",
+    "no_transform": true
+  },
+  {
+    "number": "6",
+    "elementCategory": "blue",
+    "custom_classes": "mt-3 ml-[42%] text-sm",
+    "no_transform": true,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": "7",
+    "elementCategory": "blue",
+    "custom_classes": "mt-3 ml-[42%] text-sm",
+    "no_transform": true
+  }
+]

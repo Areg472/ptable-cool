@@ -1,0 +1,13 @@
+{
+  "reactive_nonmetals": "bg-green-600",
+  "alkali_metals": "bg-orange-800",
+  "alkaline_earth_metals": "bg-yellow-700",
+  "transition_metals": "bg-red-800",
+  "lanthanoids": "bg-yellow-900",
+  "blue": "bg-blue-700",
+  "post_transition_metals": "bg-blue-500",
+  "metalloids": "bg-teal-700",
+  "actinoids": "bg-pink-600",
+  "noble_gases": "bg-purple-700",
+  "unknown": "bg-gray-900"
+}

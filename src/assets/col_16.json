@@ -1,0 +1,62 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 8,
+    "element": "O",
+    "name": "Oxygen",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 15.999
+  },
+  {
+    "number": 16,
+    "element": "S",
+    "name": "Sulfur",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 32.06
+  },
+  {
+    "number": 34,
+    "element": "Se",
+    "name": "Selenium",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 78.971
+  },
+  {
+    "number": 52,
+    "element": "Te",
+    "name": "Tellurium",
+    "elementCategory": "metalloids",
+    "elementWeight": 127.60
+  },
+  {
+    "number": 84,
+    "element": "Po",
+    "name": "Polonium",
+    "elementCategory": "post_transition_metals",
+    "elementWeight": 209
+  },
+  {
+    "number": 116,
+    "element": "Lv",
+    "name": "Livermorium",
+    "elementCategory": "unknown",
+    "elementWeight": 293
+  },
+  {
+    "number": 69,
+    "element": "Tm",
+    "name": "Thulium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 168.93,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 101,
+    "element": "Md",
+    "name": "Mendelevium",
+    "elementCategory": "actinoids",
+    "elementWeight": 258
+  }
+]

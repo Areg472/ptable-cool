@@ -1,0 +1,62 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 7,
+    "element": "N",
+    "name": "Nitrogen",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 14.007
+  },
+  {
+    "number": 15,
+    "element": "P",
+    "name": "Phosphorus",
+    "elementCategory": "reactive_nonmetals",
+    "elementWeight": 30.974
+  },
+  {
+    "number": 33,
+    "element": "As",
+    "name": "Arsenic",
+    "elementCategory": "metalloids",
+    "elementWeight": 74.922
+  },
+  {
+    "number": 51,
+    "element": "Sb",
+    "name": "Antimony",
+    "elementCategory": "metalloids",
+    "elementWeight": 121.76
+  },
+  {
+    "number": 83,
+    "element": "Bi",
+    "name": "Bismuth",
+    "elementCategory": "post_transition_metals",
+    "elementWeight": 208.98
+  },
+  {
+    "number": 115,
+    "element": "Mc",
+    "name": "Moscovium",
+    "elementCategory": "unknown",
+    "elementWeight": 290
+  },
+  {
+    "number": 68,
+    "element": "Er",
+    "name": "Erbium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 167.26,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 100,
+    "element": "Fm",
+    "name": "Fermium",
+    "elementCategory": "actinoids",
+    "elementWeight": 257
+  }
+]

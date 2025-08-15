@@ -1,0 +1,54 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 24,
+    "element": "Cr",
+    "name": "Chromium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 51.996
+  },
+  {
+    "number": 42,
+    "element": "Mo",
+    "name": "Molybdenum",
+    "elementCategory": "transition_metals",
+    "elementWeight": 95.95
+  },
+  {
+    "number": 74,
+    "element": "W",
+    "name": "Tungsten",
+    "elementCategory": "transition_metals",
+    "elementWeight": 183.84
+  },
+  {
+    "number": 106,
+    "element": "Sg",
+    "name": "Seaborgium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 271
+  },
+  {
+    "number": 59,
+    "element": "Pr",
+    "name": "Praseodymium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 140.91,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 91,
+    "element": "Pa",
+    "name": "Protactinium",
+    "elementCategory": "actinoids",
+    "elementWeight": 231.04
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "elementCategory": "invincible"
+  },
+  {
+    "number": 23,
+    "element": "V",
+    "name": "Vanadium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 50.942
+  },
+  {
+    "number": 41,
+    "element": "Nb",
+    "name": "Niobium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 92.906
+  },
+  {
+    "number": 73,
+    "element": "Ta",
+    "name": "Tantalum",
+    "elementCategory": "transition_metals",
+    "elementWeight": 180.95
+  },
+  {
+    "number": 105,
+    "element": "Db",
+    "name": "Dubnium",
+    "elementCategory": "transition_metals",
+    "elementWeight": 268
+  },
+  {
+    "number": 58,
+    "element": "Ce",
+    "name": "Cerium",
+    "elementCategory": "lanthanoids",
+    "elementWeight": 140.12,
+    "custom_classes_cell": "mt-4"
+  },
+  {
+    "number": 90,
+    "element": "Th",
+    "name": "Thorium",
+    "elementCategory": "actinoids",
+    "elementWeight": 232.04
+  }
+]
