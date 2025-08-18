@@ -20,6 +20,7 @@ import col_17 from "./assets/col_17.json";
 import col_18 from "./assets/col_18.json";
 import { useState } from "react";
 import colorMap from "./assets/colorMap.json";
+import { motion } from "motion/react";
 
 const cols = [
   col_1,
@@ -74,7 +75,12 @@ function App() {
           }}
         >
           {cols.map((col, index) => (
-            <CellContainer col={col} key={index} setter={setInfo} />
+            <CellContainer
+              col={col}
+              key={index}
+              setter={setInfo}
+              index={index}
+            />
           ))}
         </div>
       </div>
@@ -126,9 +132,18 @@ function InfoBox({ info }) {
   );
 }
 
-function CellContainer({ col, setter }) {
+function CellContainer({ col, setter, index }) {
   return (
-    <div className="flex flex-col space-x-0.5 space-y-0.5">
+    <motion.div
+      className="flex flex-col space-x-0.5 space-y-0.5"
+      initial={{ y: -10, opacity: 0, scale: 0 }}
+      animate={{ y: 0, opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.5,
+        delay: index * 0.3,
+        type: "tween",
+      }}
+    >
       {col.map((item) => (
         <Cell
           key={item.number}
@@ -143,7 +158,7 @@ function CellContainer({ col, setter }) {
           element_weight={item.elementWeight}
         />
       ))}
-    </div>
+    </motion.div>
   );
 }
 
