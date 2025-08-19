@@ -1,5 +1,5 @@
 import "./App.css";
-import Cell from "./components/cell.jsx";
+import Cell from "./components/cell";
 import col_1 from "./assets/col_1.json";
 import col_2 from "./assets/col_2.json";
 import col_3 from "./assets/col_3.json";
