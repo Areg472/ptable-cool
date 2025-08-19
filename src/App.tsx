@@ -44,6 +44,19 @@ const cols = [
   col_18,
 ];
 
+const colorMapCss = {
+  reactive_nonmetals: "#00a63e",
+  alkali_metals: "#9f2d00",
+  alkaline_earth_metals: "#a65f00",
+  transition_metals: "#9f0712",
+  lanthanoids: "#733e0a",
+  post_transition_metals: "#2b7fff",
+  metalloids: "#00786f",
+  actinoids: "#e60076",
+  noble_gases: "#8200db",
+  unknown: "#101828",
+};
+
 function App() {
   const [info, setInfo] = useState({
     elementName: "",
@@ -63,8 +76,14 @@ function App() {
     });
   };
 
-  console.log(info);
+  let color_style = colorMapCss[info.elementCategory] || "bg-gray-500";
 
+  if (info.elementCategory !== "invincible") {
+    console.log(
+      `%c ${info.elementName} `,
+      `background: ${color_style}; color: white; font-weight: bold; padding: 8px 16px; border-radius: 6px;`,
+    );
+  }
   const [selectedGroup, setSelectedGroup] = useState("all");
   const [previousGroup, setPreviousGroup] = useState("all");
 
