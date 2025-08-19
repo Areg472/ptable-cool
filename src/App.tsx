@@ -90,7 +90,7 @@ function App() {
 
 function InfoBox({ info }) {
   let color_style = colorMap[info.elementCategory] || "bg-gray-500";
-  let border_style;
+  let border_style = "";
   let duration_class = "duration-700";
 
   if (info.elementCategory === "invincible") {
@@ -144,7 +144,7 @@ function CellContainer({ col, setter, index }) {
         type: "tween",
       }}
     >
-      {col.map((item) => (
+      {col.map((item = null) => (
         <Cell
           key={item.number}
           number={item.number}
