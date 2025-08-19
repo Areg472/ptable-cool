@@ -33,7 +33,7 @@ export default function Cell({
   }
 
   const baseClasses =
-    "w-12 h-12 min-w-12 min-h-12 flex flex-col justify-start items-start text-white";
+    "w-12 h-12 min-w-12 min-h-12 flex flex-col justify-start items-start text-white select-none";
   const borderClass = isInvincible ? "" : "border-2 border-black rounded-xs";
 
   const outlineHoverClass = isInvincible

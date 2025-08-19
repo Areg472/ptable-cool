@@ -21,6 +21,7 @@ import col_18 from "./assets/col_18.json";
 import { useState } from "react";
 import colorMap from "./assets/colorMap.json";
 import { motion } from "motion/react";
+import { Button } from "@/components/ui/button";
 
 const cols = [
   col_1,
@@ -64,6 +65,14 @@ function App() {
 
   console.log(info);
 
+  const [selectedGroup, setSelectedGroup] = useState("all");
+  const [previousGroup, setPreviousGroup] = useState("all");
+
+  const handleGroupChange = (newGroup) => {
+    setPreviousGroup(selectedGroup);
+    setSelectedGroup(newGroup);
+  };
+
   return (
     <>
       <InfoBox info={info} />
@@ -80,10 +89,13 @@ function App() {
               key={index}
               setter={setInfo}
               index={index}
+              selectedCategory={selectedGroup}
+              previousCategory={previousGroup}
             />
           ))}
         </div>
       </div>
+      <ElementGroupSelector setter={handleGroupChange} />
     </>
   );
 }
@@ -132,33 +144,129 @@ function InfoBox({ info }) {
   );
 }
 
-function CellContainer({ col, setter, index }) {
+function CellContainer({
+  col,
+  setter,
+  index,
+  selectedCategory = "all",
+  previousCategory = "all",
+}) {
   return (
     <motion.div
       className="flex flex-col space-x-0.5 space-y-0.5"
-      initial={{ y: -10, opacity: 0, scale: 0 }}
-      animate={{ y: 0, opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{
         duration: 0.5,
         delay: index * 0.3,
         type: "tween",
       }}
     >
-      {col.map((item = null) => (
-        <Cell
-          key={item.number}
-          number={item.number}
-          element={item.element}
-          category={item.elementCategory}
-          custom_classes={item.custom_classes}
-          custom_classes_cell={item.custom_classes_cell}
-          no_transform={item.no_transform}
-          setter={setter}
-          element_name={item.name}
-          element_weight={item.elementWeight}
-        />
-      ))}
+      {col.map((item = null, itemIndex) => {
+        if (!item) {
+          return <div key={`empty-${itemIndex}`} className="h-16 w-16"></div>;
+        }
+
+        const isVisible =
+          selectedCategory === "all" ||
+          item.elementCategory === selectedCategory ||
+          item.elementCategory === "blue";
+        const wasVisible =
+          previousCategory === "all" ||
+          item.elementCategory === previousCategory ||
+          item.elementCategory === "blue";
+
+        const category = item.elementCategory;
+
+        const isFilteringFromAll =
+          previousCategory === "all" && selectedCategory !== "all";
+        const isShowingAll =
+          selectedCategory === "all" && previousCategory !== "all";
+
+        return (
+          <motion.div
+            key={item.number}
+            initial={
+              isShowingAll && !wasVisible
+                ? { y: -10, opacity: 0, scale: 0 }
+                : false
+            }
+            animate={{
+              y: 0,
+              opacity: isVisible ? 1 : 0.15,
+              scale: isVisible ? 1 : 0.8,
+            }}
+            transition={{
+              duration: isFilteringFromAll || isShowingAll ? 0.4 : 0.3,
+              delay: isFilteringFromAll
+                ? isVisible
+                  ? 0
+                  : itemIndex * 0.02
+                : isShowingAll && !wasVisible
+                  ? index * 0.1 + itemIndex * 0.02
+                  : 0,
+              ease: "easeInOut",
+            }}
+          >
+            <Cell
+              number={item.number}
+              element={item.element}
+              category={category}
+              custom_classes={item.custom_classes}
+              custom_classes_cell={item.custom_classes_cell}
+              no_transform={item.no_transform}
+              setter={setter}
+              element_name={item.name}
+              element_weight={item.elementWeight}
+            />
+          </motion.div>
+        );
+      })}
     </motion.div>
+  );
+}
+
+function ElementGroupSelector({ setter }) {
+  const handleGroupChange = (group = "") => {
+    setter(group);
+  };
+
+  return (
+    <div className="flex flex-col justify-center items-center w-full mt-4 space-y-2">
+      <div className="flex space-x-2">
+        <Button onClick={() => handleGroupChange("all")}>All</Button>
+        <Button onClick={() => handleGroupChange("reactive_nonmetals")}>
+          Reactive non-metals
+        </Button>
+        <Button onClick={() => handleGroupChange("alkali_metals")}>
+          Alkali metals
+        </Button>
+        <Button onClick={() => handleGroupChange("alkaline_earth_metals")}>
+          Alkaline earth metals
+        </Button>
+        <Button onClick={() => handleGroupChange("transition_metals")}>
+          Transition metals
+        </Button>
+      </div>
+      <div className="flex space-x-2">
+        <Button onClick={() => handleGroupChange("lanthanoids")}>
+          Lanthanoids
+        </Button>
+        <Button onClick={() => handleGroupChange("post_transition_metals")}>
+          Post-transition metals
+        </Button>
+        <Button onClick={() => handleGroupChange("metalloids")}>
+          Metalloids
+        </Button>
+        <Button onClick={() => handleGroupChange("actinoids")}>
+          Actinoids
+        </Button>
+        <Button onClick={() => handleGroupChange("noble_gases")}>
+          Noble gases
+        </Button>
+        <Button onClick={() => handleGroupChange("unknown")}>Unknown</Button>
+      </div>
+    </div>
   );
 }
 
