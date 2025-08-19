@@ -95,7 +95,7 @@ function App() {
           ))}
         </div>
       </div>
-      <ElementGroupSelector setter={handleGroupChange} />
+      <ElementGroupSelector setter={handleGroupChange} info={info} />
     </>
   );
 }
@@ -226,7 +226,7 @@ function CellContainer({
   );
 }
 
-function ElementGroupSelector({ setter }) {
+function ElementGroupSelector({ setter, info }) {
   const handleGroupChange = (group = "") => {
     setter(group);
   };
@@ -234,37 +234,71 @@ function ElementGroupSelector({ setter }) {
   return (
     <div className="flex flex-col justify-center items-center w-full mt-4 space-y-2">
       <div className="flex space-x-2">
-        <Button onClick={() => handleGroupChange("all")}>All</Button>
-        <Button onClick={() => handleGroupChange("reactive_nonmetals")}>
+        <Button onClick={() => handleGroupChange("all")} bgColor={"bg-black"}>
+          All
+        </Button>
+        <Button
+          onClick={() => handleGroupChange("reactive_nonmetals")}
+          bgColor={colorMap["reactive_nonmetals"]}
+        >
           Reactive non-metals
         </Button>
-        <Button onClick={() => handleGroupChange("alkali_metals")}>
+        <Button
+          onClick={() => handleGroupChange("alkali_metals")}
+          bgColor={colorMap["alkali_metals"]}
+        >
           Alkali metals
         </Button>
-        <Button onClick={() => handleGroupChange("alkaline_earth_metals")}>
+        <Button
+          onClick={() => handleGroupChange("alkaline_earth_metals")}
+          bgColor={colorMap["alkaline_earth_metals"]}
+        >
           Alkaline earth metals
         </Button>
-        <Button onClick={() => handleGroupChange("transition_metals")}>
+        <Button
+          onClick={() => handleGroupChange("transition_metals")}
+          bgColor={colorMap["transition_metals"]}
+        >
           Transition metals
         </Button>
       </div>
       <div className="flex space-x-2">
-        <Button onClick={() => handleGroupChange("lanthanoids")}>
+        <Button
+          onClick={() => handleGroupChange("lanthanoids")}
+          bgColor={colorMap["lanthanoids"]}
+        >
           Lanthanoids
         </Button>
-        <Button onClick={() => handleGroupChange("post_transition_metals")}>
+        <Button
+          onClick={() => handleGroupChange("post_transition_metals")}
+          bgColor={colorMap["post_transition_metals"]}
+        >
           Post-transition metals
         </Button>
-        <Button onClick={() => handleGroupChange("metalloids")}>
+        <Button
+          onClick={() => handleGroupChange("metalloids")}
+          bgColor={colorMap["metalloids"]}
+        >
           Metalloids
         </Button>
-        <Button onClick={() => handleGroupChange("actinoids")}>
+        <Button
+          onClick={() => handleGroupChange("actinoids")}
+          bgColor={colorMap["actinoids"]}
+        >
           Actinoids
         </Button>
-        <Button onClick={() => handleGroupChange("noble_gases")}>
+        <Button
+          onClick={() => handleGroupChange("noble_gases")}
+          bgColor={colorMap["noble_gases"]}
+        >
           Noble gases
         </Button>
-        <Button onClick={() => handleGroupChange("unknown")}>Unknown</Button>
+        <Button
+          onClick={() => handleGroupChange("unknown")}
+          bgColor={colorMap["unknown"]}
+        >
+          Unknown
+        </Button>
       </div>
     </div>
   );
