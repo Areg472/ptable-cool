@@ -65,6 +65,7 @@ function App() {
     elementWeight: "",
     elementCategory: "invincible",
   });
+  const [isVisible, setIsVisible] = useState(false);
 
   const resetInfo = () => {
     setInfo({
@@ -74,6 +75,7 @@ function App() {
       elementWeight: "",
       elementCategory: "invincible",
     });
+    setIsVisible(false);
   };
 
   let color_style = colorMapCss[info.elementCategory] || "bg-gray-500";
@@ -94,7 +96,7 @@ function App() {
 
   return (
     <>
-      <InfoBox info={info} />
+      <InfoBox info={info} isVisible={isVisible} />
       <div className="flex justify-center">
         <div
           className="flex flex-row mt-6"
@@ -107,6 +109,7 @@ function App() {
               col={col}
               key={index}
               setter={setInfo}
+              setIsVisible={setIsVisible}
               index={index}
               selectedCategory={selectedGroup}
               previousCategory={previousGroup}
@@ -119,7 +122,7 @@ function App() {
   );
 }
 
-function InfoBox({ info }) {
+function InfoBox({ info, isVisible }) {
   let color_style = colorMap[info.elementCategory] || "bg-gray-500";
   let border_style = "";
   let duration_class = "duration-700";
@@ -135,7 +138,8 @@ function InfoBox({ info }) {
 
   return (
     <div
-      className={`flex flex-row items-center ${color_style} text-white h-28 w-80 rounded-xs ${duration_class} ${border_style} mx-auto transition-all px-4`}
+      className={`flex flex-row items-center ${color_style} text-white h-28 duration-0 w-80 rounded-xs ${duration_class} ${border_style} mx-auto transition-all px-4
+        ${isVisible ? "opacity-100 duration-200" : "opacity-0 duration-0"}`}
     >
       <div
         className={`transition-opacity text-center min-w-[3.5rem] ${info.elementSymbol ? "opacity-100" : "opacity-0"} mr-6 text-5xl font-extrabold flex-shrink-0 font-raleway`}
@@ -169,6 +173,7 @@ function CellContainer({
   index,
   selectedCategory = "all",
   previousCategory = "all",
+  setIsVisible,
 }) {
   return (
     <motion.div
@@ -204,6 +209,8 @@ function CellContainer({
 
         return (
           <motion.div
+            onHoverStart={() => setIsVisible(isVisible)}
+            onHoverEnd={() => setIsVisible(false)}
             key={item.number}
             initial={
               isShowingAll && !wasVisible
@@ -237,6 +244,7 @@ function CellContainer({
               setter={setter}
               element_name={item.name}
               element_weight={item.elementWeight}
+              isVisible={isVisible}
             />
           </motion.div>
         );

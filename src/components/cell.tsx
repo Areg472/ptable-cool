@@ -23,6 +23,7 @@ export default function Cell({
   setter,
   element_name,
   element_weight,
+  isVisible,
 }) {
   const isInvincible = category === "invincible";
   const isNumberOnly = !element || element === "";
@@ -82,8 +83,14 @@ export default function Cell({
         handleHover();
       }}
     >
-      <p className={`${default_margin} ${custom_classes_impl}`}>{number}</p>
-      <p className={`${default_margin} ${custom_classes_impl}`}>{element}</p>
+      {isVisible && (
+        <>
+          <p className={`${default_margin} ${custom_classes_impl}`}>{number}</p>
+          <p className={`${default_margin} ${custom_classes_impl}`}>
+            {element}
+          </p>
+        </>
+      )}
     </div>
   );
 }
