@@ -7,42 +7,48 @@
     "element": "O",
     "name": "Oxygen",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 15.999
+    "elementWeight": 15.999,
+    "elementWiki": "https://en.wikipedia.org/wiki/Oxygen"
   },
   {
     "number": 16,
     "element": "S",
     "name": "Sulfur",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 32.06
+    "elementWeight": 32.06,
+    "elementWiki": "https://en.wikipedia.org/wiki/Sulfur"
   },
   {
     "number": 34,
     "element": "Se",
     "name": "Selenium",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 78.971
+    "elementWeight": 78.971,
+    "elementWiki": "https://en.wikipedia.org/wiki/Selenium"
   },
   {
     "number": 52,
     "element": "Te",
     "name": "Tellurium",
     "elementCategory": "metalloids",
-    "elementWeight": 127.60
+    "elementWeight": 127.60,
+    "elementWiki": "https://en.wikipedia.org/wiki/Tellurium"
   },
   {
     "number": 84,
     "element": "Po",
     "name": "Polonium",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 209
+    "elementWeight": 209,
+    "elementWiki": "https://en.wikipedia.org/wiki/Polonium"
   },
   {
     "number": 116,
     "element": "Lv",
     "name": "Livermorium",
     "elementCategory": "unknown",
-    "elementWeight": 293
+    "elementWeight": 293,
+    "elementWiki": "https://en.wikipedia.org/wiki/Livermorium"
   },
   {
     "number": 69,
@@ -50,13 +56,15 @@
     "name": "Thulium",
     "elementCategory": "lanthanoids",
     "elementWeight": 168.93,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Thulium"
   },
   {
     "number": 101,
     "element": "Md",
     "name": "Mendelevium",
     "elementCategory": "actinoids",
-    "elementWeight": 258
+    "elementWeight": 258,
+    "elementWiki": "https://en.wikipedia.org/wiki/Mendelevium"
   }
 ]

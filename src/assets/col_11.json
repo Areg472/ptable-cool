@@ -13,28 +13,32 @@
     "element": "Cu",
     "name": "Copper",
     "elementCategory": "transition_metals",
-    "elementWeight": 63.546
+    "elementWeight": 63.546,
+    "elementWiki": "https://en.wikipedia.org/wiki/Copper"
   },
   {
     "number": 47,
     "element": "Ag",
     "name": "Silver",
     "elementCategory": "transition_metals",
-    "elementWeight": 107.87
+    "elementWeight": 107.87,
+    "elementWiki": "https://en.wikipedia.org/wiki/Silver"
   },
   {
     "number": 79,
     "element": "Au",
     "name": "Gold",
     "elementCategory": "transition_metals",
-    "elementWeight": 196.97
+    "elementWeight": 196.97,
+    "elementWiki": "https://en.wikipedia.org/wiki/Gold"
   },
   {
     "number": 111,
     "element": "Rg",
     "name": "Roentgenium",
     "elementCategory": "unknown",
-    "elementWeight": 282
+    "elementWeight": 282,
+    "elementWiki": "https://en.wikipedia.org/wiki/Roentgenium"
   },
   {
     "number": 64,
@@ -42,13 +46,15 @@
     "name": "Gadolinium",
     "elementCategory": "lanthanoids",
     "elementWeight": 157.25,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Gadolinium"
   },
   {
     "number": 96,
     "element": "Cm",
     "name": "Curium",
     "elementCategory": "actinoids",
-    "elementWeight": 247
+    "elementWeight": 247,
+    "elementWiki": "https://en.wikipedia.org/wiki/Curium"
   }
 ]

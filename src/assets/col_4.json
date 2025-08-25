@@ -13,28 +13,32 @@
     "element": "Ti",
     "name": "Titanium",
     "elementCategory": "transition_metals",
-    "elementWeight": 47.867
+    "elementWeight": 47.867,
+    "elementWiki": "https://en.wikipedia.org/wiki/Titanium"
   },
   {
     "number": 40,
     "element": "Zr",
     "name": "Zirconium",
     "elementCategory": "transition_metals",
-    "elementWeight": 91.224
+    "elementWeight": 91.224,
+    "elementWiki": "https://en.wikipedia.org/wiki/Zirconium"
   },
   {
     "number": 72,
     "element": "Hf",
     "name": "Hafnium",
     "elementCategory": "transition_metals",
-    "elementWeight": 178.49
+    "elementWeight": 178.49,
+    "elementWiki": "https://en.wikipedia.org/wiki/Hafnium"
   },
   {
     "number": 104,
     "element": "Rf",
     "name": "Rutherfordium",
     "elementCategory": "transition_metals",
-    "elementWeight": 267
+    "elementWeight": 267,
+    "elementWiki": "https://en.wikipedia.org/wiki/Rutherfordium"
   },
   {
     "number": 57,
@@ -42,13 +46,15 @@
     "name": "Lanthanum",
     "elementCategory": "lanthanoids",
     "elementWeight": 138.91,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Lanthanum"
   },
   {
     "number": 89,
     "element": "Ac",
     "name": "Actinium",
     "elementCategory": "actinoids",
-    "elementWeight": 227
+    "elementWeight": 227,
+    "elementWiki": "https://en.wikipedia.org/wiki/Actinium"
   }
 ]

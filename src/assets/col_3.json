@@ -13,14 +13,16 @@
     "element": "Sc",
     "name": "Scandium",
     "elementCategory": "transition_metals",
-    "elementWeight": 44.956
+    "elementWeight": 44.956,
+    "elementWiki": "https://en.wikipedia.org/wiki/Scandium"
   },
   {
     "number": 39,
     "element": "Y",
     "name": "Yttrium",
     "elementCategory": "transition_metals",
-    "elementWeight": 88.906
+    "elementWeight": 88.906,
+    "elementWiki": "https://en.wikipedia.org/wiki/Yttrium"
   },
   {
     "number": "57-71",

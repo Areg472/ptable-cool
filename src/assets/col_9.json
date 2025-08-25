@@ -13,28 +13,32 @@
     "element": "Co",
     "elementCategory": "transition_metals",
     "name": "Cobalt",
-    "elementWeight": 58.933
+    "elementWeight": 58.933,
+    "elementWiki": "https://en.wikipedia.org/wiki/Cobalt"
   },
   {
     "number": 45,
     "element": "Rh",
     "elementCategory": "transition_metals",
     "name": "Rhodium",
-    "elementWeight": 102.91
+    "elementWeight": 102.91,
+    "elementWiki": "https://en.wikipedia.org/wiki/Rhodium"
   },
   {
     "number": 77,
     "element": "Ir",
     "elementCategory": "transition_metals",
     "name": "Iridium",
-    "elementWeight": 192.22
+    "elementWeight": 192.22,
+    "elementWiki": "https://en.wikipedia.org/wiki/Iridium"
   },
   {
     "number": 109,
     "element": "Mt",
     "elementCategory": "unknown",
     "name": "Meitnerium",
-    "elementWeight": 278
+    "elementWeight": 278,
+    "elementWiki": "https://en.wikipedia.org/wiki/Meitnerium"
   },
   {
     "number": 62,
@@ -42,13 +46,15 @@
     "elementCategory": "lanthanoids",
     "name": "Samarium",
     "elementWeight": 150.36,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Samarium"
   },
   {
     "number": 94,
     "element": "Pu",
     "elementCategory": "actinoids",
     "name": "Plutonium",
-    "elementWeight": 244
+    "elementWeight": 244,
+    "elementWiki": "https://en.wikipedia.org/wiki/Plutonium"
   }
 ]

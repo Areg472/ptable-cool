@@ -7,42 +7,48 @@
     "element": "C",
     "name": "Carbon",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 12.011
+    "elementWeight": 12.011,
+    "elementWiki": "https://en.wikipedia.org/wiki/Carbon"
   },
   {
     "number": 14,
     "element": "Si",
     "name": "Silicon",
     "elementCategory": "metalloids",
-    "elementWeight": 28.085
+    "elementWeight": 28.085,
+    "elementWiki": "https://en.wikipedia.org/wiki/Silicon"
   },
   {
     "number": 32,
     "element": "Ge",
     "name": "Germanium",
     "elementCategory": "metalloids",
-    "elementWeight": 72.63
+    "elementWeight": 72.63,
+    "elementWiki": "https://en.wikipedia.org/wiki/Germanium"
   },
   {
     "number": 50,
     "element": "Sn",
     "name": "Tin",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 118.71
+    "elementWeight": 118.71,
+    "elementWiki": "https://en.wikipedia.org/wiki/Tin"
   },
   {
     "number": 82,
     "element": "Pb",
     "name": "Lead",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 207.2
+    "elementWeight": 207.2,
+    "elementWiki": "https://en.wikipedia.org/wiki/Lead"
   },
   {
     "number": 114,
     "element": "Fl",
     "name": "Flerovium",
     "elementCategory": "unknown",
-    "elementWeight": 289
+    "elementWeight": 289,
+    "elementWiki": "https://en.wikipedia.org/wiki/Flerovium"
   },
   {
     "number": 67,
@@ -50,13 +56,15 @@
     "name": "Holmium",
     "elementCategory": "lanthanoids",
     "elementWeight": 164.93,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Holmium"
   },
   {
     "number": 99,
     "element": "Es",
     "name": "Einsteinium",
     "elementCategory": "actinoids",
-    "elementWeight": 252
+    "elementWeight": 252,
+    "elementWiki": "https://en.wikipedia.org/wiki/Einsteinium"
   }
 ]

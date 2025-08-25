@@ -13,28 +13,32 @@
     "element": "Mn",
     "name": "Manganese",
     "elementCategory": "transition_metals",
-    "elementWeight": 54.938
+    "elementWeight": 54.938,
+    "elementWiki": "https://en.wikipedia.org/wiki/Manganese"
   },
   {
     "number": 43,
     "element": "Tc",
     "name": "Technetium",
     "elementCategory": "transition_metals",
-    "elementWeight": 98
+    "elementWeight": 98,
+    "elementWiki": "https://en.wikipedia.org/wiki/Technetium"
   },
   {
     "number": 75,
     "element": "Re",
     "name": "Rhenium",
     "elementCategory": "transition_metals",
-    "elementWeight": 186.21
+    "elementWeight": 186.21,
+    "elementWiki": "https://en.wikipedia.org/wiki/Rhenium"
   },
   {
     "number": 107,
     "element": "Bh",
     "name": "Bohrium",
     "elementCategory": "transition_metals",
-    "elementWeight": 270
+    "elementWeight": 270,
+    "elementWiki": "https://en.wikipedia.org/wiki/Bohrium"
   },
   {
     "number": 60,
@@ -42,13 +46,15 @@
     "name": "Neodymium",
     "elementCategory": "lanthanoids",
     "elementWeight": 144.24,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Neodymium"
   },
   {
     "number": 92,
     "element": "U",
     "name": "Uranium",
     "elementCategory": "actinoids",
-    "elementWeight": 238.03
+    "elementWeight": 238.03,
+    "elementWiki": "https://en.wikipedia.org/wiki/Uranium"
   }
 ]

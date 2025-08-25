@@ -13,28 +13,32 @@
     "element": "Fe",
     "name": "Iron",
     "elementCategory": "transition_metals",
-    "elementWeight": 55.845
+    "elementWeight": 55.845,
+    "elementWiki": "https://en.wikipedia.org/wiki/Iron"
   },
   {
     "number": 44,
     "element": "Ru",
     "name": "Ruthenium",
     "elementCategory": "transition_metals",
-    "elementWeight": 101.07
+    "elementWeight": 101.07,
+    "elementWiki": "https://en.wikipedia.org/wiki/Ruthenium"
   },
   {
     "number": 76,
     "element": "Os",
     "name": "Osmium",
     "elementCategory": "transition_metals",
-    "elementWeight": 190.23
+    "elementWeight": 190.23,
+    "elementWiki": "https://en.wikipedia.org/wiki/Osmium"
   },
   {
     "number": 108,
     "element": "Hs",
     "name": "Hassium",
     "elementCategory": "transition_metals",
-    "elementWeight": 277
+    "elementWeight": 277,
+    "elementWiki": "https://en.wikipedia.org/wiki/Hassium"
   },
   {
     "number": 61,
@@ -42,13 +46,15 @@
     "name": "Promethium",
     "elementCategory": "lanthanoids",
     "elementWeight": 145,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Promethium"
   },
   {
     "number": 93,
     "element": "Np",
     "name": "Neptunium",
     "elementCategory": "actinoids",
-    "elementWeight": 237
+    "elementWeight": 237.05,
+    "elementWiki": "https://en.wikipedia.org/wiki/Neptunium"
   }
 ]

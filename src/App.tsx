@@ -63,6 +63,7 @@ function App() {
     elementSymbol: "",
     elementNumber: "",
     elementWeight: "",
+    elementWiki: "",
     elementCategory: "invincible",
   });
   const [isVisible, setIsVisible] = useState(false);
@@ -73,6 +74,7 @@ function App() {
       elementSymbol: "",
       elementNumber: "",
       elementWeight: "",
+      elementWiki: "",
       elementCategory: "invincible",
     });
     setIsVisible(false);
@@ -138,7 +140,7 @@ function InfoBox({ info, isVisible }) {
 
   return (
     <div
-      className={`flex flex-row items-center ${color_style} text-white h-28 duration-0 w-80 rounded-xs ${duration_class} ${border_style} mx-auto transition-all px-4
+      className={`flex flex-row items-center ${color_style} text-white h-32 duration-0 w-82 rounded-xs ${duration_class} ${border_style} mx-auto transition-all px-4
         ${isVisible ? "opacity-100 duration-200" : "opacity-0 duration-0"}`}
     >
       <div
@@ -161,6 +163,11 @@ function InfoBox({ info, isVisible }) {
           className={`transition-opacity ${info.elementWeight ? "opacity-100" : "opacity-0"}`}
         >
           Element weight: {info.elementWeight}
+        </p>
+        <p
+          className={`transition-opacity ${info.elementWeight ? "opacity-100" : "opacity-0"}`}
+        >
+          Click the cell for more info
         </p>
       </div>
     </div>
@@ -245,6 +252,7 @@ function CellContainer({
               element_name={item.name}
               element_weight={item.elementWeight}
               isVisible={isVisible}
+              elementWiki={item.elementWiki}
             />
           </motion.div>
         );

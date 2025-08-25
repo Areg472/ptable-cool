@@ -4,49 +4,56 @@
     "element": "He",
     "name": "Helium",
     "elementCategory": "noble_gases",
-    "elementWeight": 4.0026
+    "elementWeight": 4.0026,
+    "elementWiki": "https://en.wikipedia.org/wiki/Helium"
   },
   {
     "number": 10,
     "element": "Ne",
     "name": "Neon",
     "elementCategory": "noble_gases",
-    "elementWeight": 20.180
+    "elementWeight": 20.180,
+    "elementWiki": "https://en.wikipedia.org/wiki/Neon"
   },
   {
     "number": 18,
     "element": "Ar",
     "name": "Argon",
     "elementCategory": "noble_gases",
-    "elementWeight": 39.948
+    "elementWeight": 39.948,
+    "elementWiki": "https://en.wikipedia.org/wiki/Argon"
   },
   {
     "number": 36,
     "element": "Kr",
     "name": "Krypton",
     "elementCategory": "noble_gases",
-    "elementWeight": 83.798
+    "elementWeight": 83.798,
+    "elementWiki": "https://en.wikipedia.org/wiki/Krypton"
   },
   {
     "number": 54,
     "element": "Xe",
     "name": "Xenon",
     "elementCategory": "noble_gases",
-    "elementWeight": 131.29
+    "elementWeight": 131.29,
+    "elementWiki": "https://en.wikipedia.org/wiki/Xenon"
   },
   {
     "number": 86,
     "element": "Rn",
     "name": "Radon",
     "elementCategory": "noble_gases",
-    "elementWeight": 222
+    "elementWeight": 222,
+    "elementWiki": "https://en.wikipedia.org/wiki/Radon"
   },
   {
     "number": 118,
     "element": "Og",
     "name": "Oganesson",
     "elementCategory": "unknown",
-    "elementWeight": 294
+    "elementWeight": 294,
+    "elementWiki": "https://en.wikipedia.org/wiki/Oganesson"
   },
   {
     "number": 71,
@@ -54,12 +61,15 @@
     "name": "Lutetium",
     "elementCategory": "lanthanoids",
     "elementWeight": 174.97,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Lutetium"
   },
   {
     "number": 103,
     "element": "Lr",
     "name": "Lawrencium",
-    "elementCategory": "actinoids"
+    "elementCategory": "actinoids",
+    "elementWeight": 266,
+    "elementWiki": "https://en.wikipedia.org/wiki/Lawrencium"
   }
 ]

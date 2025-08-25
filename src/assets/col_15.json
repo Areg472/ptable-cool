@@ -7,42 +7,48 @@
     "element": "N",
     "name": "Nitrogen",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 14.007
+    "elementWeight": 14.007,
+    "elementWiki": "https://en.wikipedia.org/wiki/Nitrogen"
   },
   {
     "number": 15,
     "element": "P",
     "name": "Phosphorus",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 30.974
+    "elementWeight": 30.974,
+    "elementWiki": "https://en.wikipedia.org/wiki/Phosphorus"
   },
   {
     "number": 33,
     "element": "As",
     "name": "Arsenic",
     "elementCategory": "metalloids",
-    "elementWeight": 74.922
+    "elementWeight": 74.922,
+    "elementWiki": "https://en.wikipedia.org/wiki/Arsenic"
   },
   {
     "number": 51,
     "element": "Sb",
     "name": "Antimony",
     "elementCategory": "metalloids",
-    "elementWeight": 121.76
+    "elementWeight": 121.76,
+    "elementWiki": "https://en.wikipedia.org/wiki/Antimony"
   },
   {
     "number": 83,
     "element": "Bi",
     "name": "Bismuth",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 208.98
+    "elementWeight": 208.98,
+    "elementWiki": "https://en.wikipedia.org/wiki/Bismuth"
   },
   {
     "number": 115,
     "element": "Mc",
     "name": "Moscovium",
     "elementCategory": "unknown",
-    "elementWeight": 290
+    "elementWeight": 290,
+    "elementWiki": "https://en.wikipedia.org/wiki/Moscovium"
   },
   {
     "number": 68,
@@ -50,13 +56,15 @@
     "name": "Erbium",
     "elementCategory": "lanthanoids",
     "elementWeight": 167.26,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Erbium"
   },
   {
     "number": 100,
     "element": "Fm",
     "name": "Fermium",
     "elementCategory": "actinoids",
-    "elementWeight": 257
+    "elementWeight": 257,
+    "elementWiki": "https://en.wikipedia.org/wiki/Fermium"
   }
 ]

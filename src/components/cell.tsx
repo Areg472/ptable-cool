@@ -24,6 +24,7 @@ export default function Cell({
   element_name,
   element_weight,
   isVisible,
+  elementWiki,
 }) {
   const isInvincible = category === "invincible";
   const isNumberOnly = !element || element === "";
@@ -55,6 +56,7 @@ export default function Cell({
         elementSymbol: "",
         elementNumber: "",
         elementWeight: "",
+        elementWiki: "",
         elementCategory: "invincible",
       });
     } else {
@@ -64,6 +66,7 @@ export default function Cell({
         elementNumber: number,
         elementWeight: element_weight,
         elementCategory: category,
+        elementWiki: elementWiki,
       });
     }
   }
@@ -77,20 +80,24 @@ export default function Cell({
   }
 
   return (
-    <div
-      className={`${color_style} ${baseClasses} ${borderClass} ${custom_classes_cell_impl} ${transformClass} -space-y-1`}
-      onMouseEnter={() => {
-        handleHover();
-      }}
-    >
-      {isVisible && (
-        <>
-          <p className={`${default_margin} ${custom_classes_impl}`}>{number}</p>
-          <p className={`${default_margin} ${custom_classes_impl}`}>
-            {element}
-          </p>
-        </>
-      )}
-    </div>
+    <a {...(isVisible && { href: elementWiki, target: "_blank" })}>
+      <div
+        className={`${color_style} ${baseClasses} ${borderClass} ${custom_classes_cell_impl} ${transformClass} -space-y-1`}
+        onMouseEnter={() => {
+          handleHover();
+        }}
+      >
+        {isVisible && (
+          <>
+            <p className={`${default_margin} ${custom_classes_impl}`}>
+              {number}
+            </p>
+            <p className={`${default_margin} ${custom_classes_impl}`}>
+              {element}
+            </p>
+          </>
+        )}
+      </div>
+    </a>
   );
 }

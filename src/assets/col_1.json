@@ -4,48 +4,55 @@
     "element": "H",
     "name": "Hydrogen",
     "elementCategory": "reactive_nonmetals",
-    "elementWeight": 1.008
+    "elementWeight": 1.008,
+    "elementWiki": "https://en.wikipedia.org/wiki/Hydrogen"
   },
   {
     "number": 2,
     "element": "Li",
     "name": "Lithium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 6.94
+    "elementWeight": 6.94,
+    "elementWiki": "https://en.wikipedia.org/wiki/Lithium"
   },
   {
     "number": 3,
     "element": "Na",
     "name": "Sodium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 22.99
+    "elementWeight": 22.99,
+    "elementWiki": "https://en.wikipedia.org/wiki/Sodium"
   },
   {
     "number": 4,
     "element": "K",
     "name": "Potassium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 39.10
+    "elementWeight": 39.10,
+    "elementWiki": "https://en.wikipedia.org/wiki/Potassium"
   },
   {
     "number": 5,
     "element": "Rb",
     "name": "Rubidium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 85.47
+    "elementWeight": 85.47,
+    "elementWiki": "https://en.wikipedia.org/wiki/Rubidium"
   },
   {
     "number": 6,
     "element": "Cs",
     "name": "Cesium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 132.91
+    "elementWeight": 132.91,
+    "elementWiki": "https://en.wikipedia.org/wiki/Cesium"
   },
   {
     "number": 7,
     "element": "Fr",
     "name": "Francium",
     "elementCategory": "alkali_metals",
-    "elementWeight": 223
+    "elementWeight": 223,
+    "elementWiki": "https://en.wikipedia.org/wiki/Francium"
   }
 ]

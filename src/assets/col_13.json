@@ -7,42 +7,48 @@
     "element": "B",
     "name": "Boron",
     "elementCategory": "metalloids",
-    "elementWeight": 10.81
+    "elementWeight": 10.81,
+    "elementWiki": "https://en.wikipedia.org/wiki/Boron"
   },
   {
     "number": 13,
     "element": "Al",
     "name": "Aluminum",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 26.982
+    "elementWeight": 26.982,
+    "elementWiki": "https://en.wikipedia.org/wiki/Aluminum"
   },
   {
     "number": 31,
     "element": "Ga",
     "name": "Gallium",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 69.723
+    "elementWeight": 69.723,
+    "elementWiki": "https://en.wikipedia.org/wiki/Gallium"
   },
   {
     "number": 49,
     "element": "In",
     "name": "Indium",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 114.82
+    "elementWeight": 114.82,
+    "elementWiki": "https://en.wikipedia.org/wiki/Indium"
   },
   {
     "number": 81,
     "element": "Tl",
     "name": "Thallium",
     "elementCategory": "post_transition_metals",
-    "elementWeight": 204.38
+    "elementWeight": 204.38,
+    "elementWiki": "https://en.wikipedia.org/wiki/Thallium"
   },
   {
     "number": 113,
     "element": "Nh",
     "name": "Nihonium",
     "elementCategory": "unknown",
-    "elementWeight": 286
+    "elementWeight": 286,
+    "elementWiki": "https://en.wikipedia.org/wiki/Nihonium"
   },
   {
     "number": 66,
@@ -50,13 +56,15 @@
     "name": "Dysprosium",
     "elementCategory": "lanthanoids",
     "elementWeight": 162.5,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Dysprosium"
   },
   {
     "number": 98,
     "element": "Cf",
     "name": "Californium",
     "elementCategory": "actinoids",
-    "elementWeight": 251
+    "elementWeight": 251,
+    "elementWiki": "https://en.wikipedia.org/wiki/Californium"
   }
 ]

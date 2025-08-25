@@ -13,28 +13,32 @@
     "element": "Ni",
     "name": "Nickel",
     "elementCategory": "transition_metals",
-    "elementWeight": 58.693
+    "elementWeight": 58.693,
+    "elementWiki": "https://en.wikipedia.org/wiki/Nickel"
   },
   {
     "number": 46,
     "element": "Pd",
     "name": "Palladium",
     "elementCategory": "transition_metals",
-    "elementWeight": 106.42
+    "elementWeight": 106.42,
+    "elementWiki": "https://en.wikipedia.org/wiki/Palladium"
   },
   {
     "number": 78,
     "element": "Pt",
     "name": "Platinum",
     "elementCategory": "transition_metals",
-    "elementWeight": 195.08
+    "elementWeight": 195.08,
+    "elementWiki": "https://en.wikipedia.org/wiki/Platinum"
   },
   {
     "number": 110,
     "element": "Ds",
     "name": "Darmstadtium",
     "elementCategory": "unknown",
-    "elementWeight": 281
+    "elementWeight": 281,
+    "elementWiki": "https://en.wikipedia.org/wiki/Darmstadtium"
   },
   {
     "number": 63,
@@ -42,13 +46,15 @@
     "name": "Europium",
     "elementCategory": "lanthanoids",
     "elementWeight": 151.96,
-    "custom_classes_cell": "mt-4"
+    "custom_classes_cell": "mt-4",
+    "elementWiki": "https://en.wikipedia.org/wiki/Europium"
   },
   {
     "number": 95,
     "element": "Am",
     "name": "Americium",
     "elementCategory": "actinoids",
-    "elementWeight": 243
+    "elementWeight": 243,
+    "elementWiki": "https://en.wikipedia.org/wiki/Americium"
   }
 ]
